@@ -1,11 +1,11 @@
 // Layout Component
-import RootLayout from "../layouts/RootLayout";
+import RootLayout from "../../layouts/RootLayout/RootLayout";
 // Note Page Component
-import Home from "../pages/NotePages/Home";
-import Note from "../pages/NotePages/Note";
-import Chat from "../pages/NotePages/Chat";
+import Home from "../../pages/NotePages/Home";
+import Note from "../../pages/NotePages/Note";
+import Chat from "../../pages/NotePages/Chat";
 // Route PATHS
-import PATHS from "../constants/PATHS";
+import PATHS from "../../constants/paths";
 
 const rootRoutes = [
   {

@@ -1,12 +1,12 @@
 // Layout Component
-import AuthLayout from "../layouts/AuthLayout";
+import AuthLayout from "../../layouts/AuthLayout/AuthLayout";
 
 // Auth Page Component
-import Login from "../pages/AuthPages/Login";
-import Signup from "../pages/AuthPages/Signup";
+import Login from "../../pages/AuthPages/Login";
+import Signup from "../../pages/AuthPages/Signup";
 
 // Route PATHS
-import PATHS from "../constants/PATHS";
+import PATHS from "../../constants/paths";
 
 const authRoutes = [
   {
